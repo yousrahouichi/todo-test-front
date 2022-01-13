@@ -1,5 +1,5 @@
 import { Card, Button, Row, Col, Container } from "react-bootstrap";
-const Todo = () => {
+const Todo = ({ title, description, date }) => {
   return (
     <Container>
       <Card>
@@ -10,7 +10,6 @@ const Todo = () => {
             </Col>
             <Col>
               <Card.Subtitle className="mb-2 text-muted">
-                {" "}
                 Thu 13 Jan
               </Card.Subtitle>
             </Col>

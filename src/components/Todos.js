@@ -1,6 +1,6 @@
 import { Stack } from "react-bootstrap";
 import Todo from "./Todo";
-const Todos = () => {
+const Todos = ({ todos }) => {
   return (
     <>
       <h1>Todos</h1>
